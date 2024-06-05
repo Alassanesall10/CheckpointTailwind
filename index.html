@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">Global Tech</div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-200">Accueil</a></li>
+                    <li><a href="#" class="hover:text-gray-200">Articles</a></li>
+                    <li><a href="#" class="hover:text-gray-200">À propos</a></li>
+                    <li><a href="#" class="hover:text-gray-200">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section des articles en vedette -->
+    <section class="container mx-auto mt-8">
+        <h2 class="text-3xl font-bold mb-6 text-center">Nos meilleurs Articles</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="images/image1.png" alt="Article 1" class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="text-xl font-semibold mt-4">SMART TELEVISION</h3>
+                <p class="mt-2 text-gray-600">VIDAA SMART TV 
+                    Modèle : SLE 32S700TCS
+                    Taille de l'écran  80 cm (32"), résolution HD
+                    Type d'écran LED, USB</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="images/image2.png" alt="Article 2" class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="text-xl font-semibold mt-4">TELEVISION QLED TV Q-SERIES</h3>
+                <p class="mt-2 text-gray-600">webOS SMART TV
+                    Modèle : SLE 50Q870TCSB
+                    Taille de l'écran  126 cm (50"), résolution HD
+                    Type d'écran QLED, USB
+                </p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="images/image3.png" alt="Article 3" class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="text-xl font-semibold mt-4">FULL HD LED TELEVISION</h3>
+                <p class="mt-2 text-gray-600">
+                    Modèle : SLE 40F18TCS
+                    Taille de l'écran  101 cm (40"), résolution FULL HD
+                    Type d'écran D-LED, USB</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section de catégorie -->
+    <section class="container mx-auto mt-8">
+        <h2 class="text-3xl font-bold mb-6 text-center">Catégories</h2>
+        <div class="flex flex-wrap justify-center space-x-2">
+            <span class="bg-blue-200 text-blue-800 px-4 py-2 rounded-full">TV LED & LCD</span>
+            <span class="bg-green-200 text-green-800 px-4 py-2 rounded-full">Téléviseurs OLED</span>
+            <span class="bg-red-200 text-red-800 px-4 py-2 rounded-full">Téléviseurs Plasma</span>
+            <span class="bg-yellow-200 text-yellow-800 px-4 py-2 rounded-full">Téléviseurs Numériques</span>
+            <span class="bg-purple-200 text-purple-800 px-4 py-2 rounded-full">Smart TV</span>
+        </div>
+    </section>
+
+    <!-- Section des messages récents -->
+    
+    <section class="container mx-auto mt-8">
+        <h2 class="text-3xl font-bold mb-6 text-center">Messages récents</h2>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Les meilleurs téléviseurs 4K de 2024 : Guide d'achat</h3>
+                <p class="text-gray-600">Publié le 1er Juin 2024</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">OLED vs QLED : Quelle technologie choisir ?</h3>
+                <p class="text-gray-600">Publié le 30 mai 2024</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Comment calibrer votre téléviseur pour une qualité d'image optimale</h3>
+                <p class="text-gray-600">Publié le 15 mai 2024</p>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- Formulaire d'inscription à la newsletter -->
+    <section class="container mx-auto mt-8 bg-blue-600 text-white p-6 rounded-lg">
+        <h2 class="text-3xl font-bold mb-6 text-center">Inscrivez-vous à notre newsletter</h2>
+        <form class="flex flex-col items-center">
+            <input type="email" placeholder="Votre email" class="p-2 rounded-lg text-gray-800 w-full max-w-sm mb-4">
+            <button class="bg-white text-blue-600 px-4 py-2 rounded-lg font-bold">S'inscrire</button>
+        </form>
+    </section>
+
+    <!-- Bas de page -->
+    <footer class="bg-gray-800 text-white p-4 mt-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                &copy; 2024 Gomycode . Tous droits réservés.
+            </div>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-gray-400">Facebook</a>
+                <a href="#" class="hover:text-gray-400">Twitter</a>
+                <a href="#" class="hover:text-gray-400">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
